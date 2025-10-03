@@ -1,0 +1,37 @@
+---
+title: "Laura Bumbulis"
+format: 
+  html: 
+    page-layout: full
+about:
+  template: solana
+  image: assets/img/DSC08712.jpg
+  image-width: 30em
+  image-shape: round
+---
+
+<div style="color: #39507d; font-size: 1.25em">
+<!--
+<a href="https://github.com/lbumbulis">
+<i class="bi bi-github"></i></a>
+<a href="https://scholar.google.com">
+<i class="ai ai-google-scholar"></i></a> 
+-->
+<a href="https://www.linkedin.com/in/laura-bumbulis/"> 
+<i class="bi bi-linkedin"></i></a> 
+<a href="https://orcid.org/0009-0003-8141-9929"> 
+<i class="ai ai-orcid"></i></a> 
+<a href="mailto:lsbumbul@uwaterloo.ca"> 
+<i class="bi bi-envelope"></i></a> 
+</div>
+
+Welcome! I'm a second-year PhD Candidate in Statistics at the University of Waterloo.
+I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.
+
+My research interests involve multistate modeling under complex observation schemes as well as two-phase designs for longitudinal covariate sampling.
+
+[Department of Statistics and Actuarial Science](https://uwaterloo.ca/statistics-and-actuarial-science/)<br> 
+[University of Waterloo](https://uwaterloo.ca/)<br>
+
+200 University Avenue West<br>
+Waterloo, ON, Canada N2L 3G1
