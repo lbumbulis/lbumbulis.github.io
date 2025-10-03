@@ -10,13 +10,6 @@ website:
     background: light
     collapse: true
     collapse-below: md
-    right:
-      - href: research/index.qmd
-        text: RESEARCH
-      - href: teaching/index.qmd
-        text: TEACHING
-      - href: other/index.qmd
-        text: OTHER
   page-footer:
     border: false
     center: |
