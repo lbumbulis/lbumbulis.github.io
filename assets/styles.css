@@ -3,3 +3,7 @@
 .about-entity .about-image {
   margin-left: 4em;
 }
+
+.quarto-page-footer {
+  white-space: nowrap;
+}
