@@ -1,0 +1,97 @@
+/*-- scss:defaults --*/
+
+$primary: #39507d;
+$warning: #ff9200;
+$body-bg: #fbfcff;
+$navbar-bg: #fbfcffcc;
+$navbar-fg: $primary;
+$nabbar-dark-hover-color: $primary;
+$navbar-light-hover-color: $primary;
+$body-color: #495057 !default;
+
+// import google fonts
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+
+
+$font-family-sans-serif:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-serif: "EB Garamond",  Georgia, Cambria, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+/*-- scss:rules --*/
+
+p {
+  a {
+    color: $primary;
+  }
+  a:hover {
+    color: lighten($primary, 30%);
+  }
+}
+
+
+a {
+  color: inherit;
+}
+
+li {
+  a {
+    color: $primary;
+  }
+  a:hover {
+    color: lighten($primary, 30%);
+  }
+}
+
+.btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+  &:hover {
+    color: #fff;
+    background-color: $warning;
+    border-color: $warning;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-serif;
+  color: $primary;
+}
+
+
+
+div.quarto-about-solana {
+  .about-entity {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/*
+
+.navbar-nav {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+*/
+
+.navbar {
+  font-family: $font-family-serif;
+}
+
+
+.nav-footer-center {
+  a {
+    color: $primary;
+  }
+  a:hover {
+    color: lighten($primary, 30%);
+  }
+}

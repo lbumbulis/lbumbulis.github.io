@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Laura Bumbulis"
+  search: false
+  navbar:
+    search: false
+    title: false
+    background: light
+    collapse: true
+    collapse-below: md
+  page-footer:
+    border: false
+    center: |
+      <a href="https://www.linkedin.com/in/laura-bumbulis/"><i class="bi bi-linkedin"></i></a>
+      <a href="https://orcid.org/0009-0003-8141-9929"><i class="ai ai-orcid"></i></a>
+      <a href="mailto:lsbumbul@uwaterloo.ca"><i class="bi bi-envelope"></i></a>
+    right:
+      - href: https://dajmcdon.github.io/
+        text: "Website theme by Daniel J. McDonald"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/djmquarto.scss
+    css: assets/styles.css
+    toc: true
+    include-in-header: assets/header.html
+
+editor: source
