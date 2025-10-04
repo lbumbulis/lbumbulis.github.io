@@ -1,0 +1,60 @@
+---
+title: "Research"
+---
+
+<br>
+
+## Publications
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(bib2df)
+library(dplyr)
+df <- bib2df(here::here("_biblio", "papers.bib"), separate_names = TRUE)
+
+keep_fields <- toupper(c(
+  "author", "journal", "pages", "publisher", "number",
+  "title", "volume", "year", "url"))
+
+df <- df[, keep_fields] |> arrange(desc(YEAR))
+source(here::here("_rcode", "render-pubs.R"))
+
+df2 <- df |>
+  transmute(
+    year = clean_str(YEAR),
+    title = fmt_title(TITLE, URL),
+    pub = fmt_jvpy(JOURNAL, VOLUME, PAGES, YEAR),
+    skip = is.na(URL)
+  )
+df2$authors = sapply(df$AUTHOR, fmt_names)
+df2 <- df2 |> filter(!skip)
+```
+
+<div class="alt-url">
+```{r, error=FALSE, warning=FALSE, results="asis", echo=FALSE}
+for (i in 1:nrow(df2)) {
+  ref = df2[i,]
+  # if (ref$skip) next
+  cat(ref$title, "\n")
+  cat(ref$authors, "\n")
+  cat(ref$pub, "\n")
+}
+```
+</div>
+
+## Contributed Talks
+
+<div class="alt-url">
+[Dual Censoring Schemes for Marker and Failure Time Processes](https://ssc.ca/en/meeting/annual/presentation/dual-censoring-schemes-marker-and-failure-time-processes)<br>
+Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada<br>
+2025, May 25--28<br>
+
+[Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection](https://canssiontario.utoronto.ca/event/2024-waterloo-student-conference/)<br>
+Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br>
+2024, October 18--19<br>
+
+[Testing Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency](https://ssc.ca/en/meeting/annual/presentation/testing-process-reliability-under-a-limit-detection-issues-robustness)<br>
+Statistical Society of Canada Annual Meeting, St. John's, NL, Canada<br>
+2024, June 2--5<br>
+</div>
+
+

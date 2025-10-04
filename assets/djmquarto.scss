@@ -5,7 +5,7 @@ $warning: #ff9200;
 $body-bg: #fbfcff;
 $navbar-bg: #fbfcffcc;
 $navbar-fg: $primary;
-$nabbar-dark-hover-color: $primary;
+$navbar-dark-hover-color: $primary;
 $navbar-light-hover-color: $primary;
 $body-color: #495057 !default;
 
@@ -28,7 +28,7 @@ p {
     color: $primary;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($primary, 20%);
   }
 }
 
@@ -42,7 +42,7 @@ li {
     color: $primary;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($primary, 20%);
   }
 }
 
@@ -85,7 +85,7 @@ div.quarto-about-solana {
 */
 
 .navbar {
-  font-family: $font-family-serif;
+  font-family: $font-family-sans-serif;
 }
 
 
@@ -94,6 +94,6 @@ div.quarto-about-solana {
     color: $primary;
   }
   a:hover {
-    color: lighten($primary, 30%);
+    color: lighten($primary, 20%);
   }
 }
