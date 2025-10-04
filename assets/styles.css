@@ -1,7 +1,10 @@
 /* css styles */
 
-.about-entity .about-image {
-  margin-left: 4.5em;
+/* Add margin between text and image when the screen is wide enough */
+@media (min-width: 768px) {
+  .about-entity .about-image {
+    margin-left: 4.5em;
+  }
 }
 
 .quarto-page-footer {
@@ -10,4 +13,9 @@
 
 footer.footer {
   font-size: 0.9em;
+}
+
+.alt-url a {
+  text-decoration: none;
+  font-weight: bold;
 }

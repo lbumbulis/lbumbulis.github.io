@@ -1,9 +1,44 @@
 [
   {
+    "objectID": "activities/index.html",
+    "href": "activities/index.html",
+    "title": "Professional Activities",
+    "section": "",
+    "text": "Page under construction."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "A bit more about me outside of academia …",
+    "section": "",
+    "text": "Page under construction."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Laura Bumbulis",
     "section": "",
-    "text": "Welcome! I’m a second-year PhD Candidate in Statistics at the University of Waterloo. I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.\nMy research interests involve multistate modelling under complex observation schemes as well as two-phase designs for longitudinal covariate sampling.\nDepartment of Statistics and Actuarial Science University of Waterloo\n200 University Avenue West Waterloo, ON, Canada N2L 3G1"
+    "text": "Welcome! I’m a second-year PhD Candidate in Statistics at the University of Waterloo, working under the supervision of Professor Richard Cook. I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.\nMy research interests involve multistate modelling under complex observation schemes as well as two-phase designs for failure time studies.\nDepartment of Statistics and Actuarial Science University of Waterloo\nM3 4224 200 University Avenue West Waterloo, ON, Canada N2L 3G1"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n\nRobustness and Efficiency Considerations When Testing Process Reliability with a Limit of Detection\n\nBumbulis, L.S., Cook, R.J.\n\nMathematics, 13, 2025\n\n\nThe Effect of Biologic Therapies on Serum Metabolic Biomarkers in Patients with Psoriatic Arthritis\n\nColaco, K., Bumbulis, L., Chandran, V., Cook, R., et al. \n\nThe Journal of Rheumatology, 52, 27–28, 2025"
+  },
+  {
+    "objectID": "research/index.html#contributed-talks",
+    "href": "research/index.html#contributed-talks",
+    "title": "Research",
+    "section": "Contributed Talks",
+    "text": "Contributed Talks\n\nDual Censoring Schemes for Marker and Failure Time Processes Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada 2025, May 25–28\nRobustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada 2024, October 18–19\nTesting Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency Statistical Society of Canada Annual Meeting, St. John’s, NL, Canada 2024, June 2–5"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Page under construction."
   }
 ]

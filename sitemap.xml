@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lbumbulis.github.io/activities/index.html</loc>
+    <lastmod>2025-10-04T12:56:43.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lbumbulis.github.io/about/index.html</loc>
+    <lastmod>2025-10-04T12:56:43.708Z</lastmod>
+  </url>
+  <url>
     <loc>https://lbumbulis.github.io/index.html</loc>
-    <lastmod>2025-10-04T00:05:22.554Z</lastmod>
+    <lastmod>2025-10-04T12:56:43.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lbumbulis.github.io/research/index.html</loc>
+    <lastmod>2025-10-04T12:56:43.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lbumbulis.github.io/teaching/index.html</loc>
+    <lastmod>2025-10-04T12:56:43.727Z</lastmod>
   </url>
 </urlset>
