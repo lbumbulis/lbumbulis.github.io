@@ -32,7 +32,7 @@ and complete two teaching practicums observed by a member of the department's [T
 <br>
 <br>
 My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024).
-My second practicum involved designing and running a 2-hour review session on finding and evaluating the efficiency of maximum likelihood, method of moments, and Bayesian estimators (STAT 450, Winter 2025).
+My second practicum involved designing and running a two-hour review session on finding and evaluating the efficiency of maximum likelihood, method of moments, and Bayesian estimators (STAT 450, Winter 2025).
 Both were observed by [Prof. Reza Ramezan](https://sites.google.com/site/ramezanic/home).
 <br>
 <br>
