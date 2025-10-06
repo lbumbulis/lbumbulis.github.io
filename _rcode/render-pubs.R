@@ -8,11 +8,16 @@ add_dot <- function(x) {
   ifelse(x=="", x, paste0(x, "."))
 }
 
+bold_text <- function(x) {
+  paste0("<b>", x, "</b>")
+}
+
 fmt_names <- function(x, max_names = 4) {
   x <- x |>
     mutate(fn = add_dot(substr(first_name, 1, 1)),
            mn = add_dot(substr(na_blank(middle_name), 1, 1)),
-           nn = str_glue("{last_name}, {fn}{mn}")) |>
+           nn_temp = str_glue("{last_name}, {fn}{mn}"),
+           nn = ifelse(last_name=="Bumbulis", bold_text(nn_temp), nn_temp)) |>
     pull(nn) |>
     as.character()
   if (length(x) > max_names) x <- c(x[1:max_names], "et al.")

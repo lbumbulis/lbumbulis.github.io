@@ -1,5 +1,7 @@
 project:
   type: website
+  preview:
+    port: 4200
 
 website:
   title: "Laura Bumbulis"
@@ -29,7 +31,7 @@ website:
       <a href="mailto:lsbumbul@uwaterloo.ca"><i class="bi bi-envelope"></i></a>
     right:
       - href: https://dajmcdon.github.io/
-        text: "Website template © 2025 Daniel J. McDonald, University of British Columbia"
+        text: "Website adapted from © 2025 Daniel J. McDonald"
 
 format:
   html:
@@ -39,5 +41,6 @@ format:
     css: assets/styles.css
     toc: true
     include-in-header: assets/header.html
+    link-external-newwindow: true
 
 editor: source
