@@ -7,7 +7,7 @@ title: "Teaching"
 ## Guest Lectures
 
 <b>STAT 450: Estimation and Hypothesis Testing,</b> February 2025<br>
-Instructor: [Peter W. MacDonald](https://peterwmacd.github.io/)<br>
+Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/)<br>
 Topic: Bayesian Estimation
 
 ## Teaching Assistantships
@@ -33,7 +33,7 @@ and complete two teaching practicums observed by a member of the department's [T
 <br>
 My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024).
 My second practicum involved designing and running a 2-hour review session on finding and evaluating the efficiency of maximum likelihood, method of moments, and Bayesian estimators (STAT 450, Winter 2025).
-Both were observed by [Professor Reza Ramezan](https://sites.google.com/site/ramezanic/home).
+Both were observed by [Prof. Reza Ramezan](https://sites.google.com/site/ramezanic/home).
 <br>
 <br>
 More information about the certificate can be found [here](https://uwaterloo.ca/statistics-and-actuarial-science/graduate-studies/resources-students/teaching-assistants-program/training-and-development).

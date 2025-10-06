@@ -4,4 +4,40 @@ title: "A bit about me outside of academia ..."
 
 <br>
 
-Page under construction.
+## Music
+
+I play the piano regularly, with a preference for pieces that sound nice but aren't too hard to play --- many things by [Ludovico Einaudi](https://ludovicoeinaudi.com/complete-works/) fit this description, and I've recently started working through [Alexandra Stréliski's](https://alexandrastreliski.com/?lang=en) Néo-Romance (see below).
+More generally, I am a very amateur enthusiast of classical music.
+
+<div style="width:80%; margin:auto;">
+::: {.column-page-inset-center}
+::: {layout="[50,50]"}
+
+::: {.column}
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/2uFUBdaVGtyMqckSeCl0Qj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+:::
+
+::: {.column}
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/7zyVDBlmL1u4ltO7O46c4o?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+:::
+
+:::
+:::
+</div>
+
+## Swimming (and other sports)
+
+I swam competitively from the age of 8 through the fourth year of my undergraduate degree, a span of about 14 years.
+I had a lot of fun experiences and learned a great deal about time management and hard work, but these days I am very much a ``swammer."
+Instead I enjoy participating in intramurals (flag football and volleyball so far) and watching tennis (even though I've never played it).
+
+::: {.column-page-inset-center}
+::: {layout="[50,50]"}
+
+![](../assets/img/IMG_5136.jpeg)
+
+![](../assets/img/IMG_6965.jpeg)
+:::
+:::
+
+<!-- {width=60%} -->

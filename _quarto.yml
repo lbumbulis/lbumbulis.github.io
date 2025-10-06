@@ -9,6 +9,7 @@ website:
   navbar:
     logo: assets/img/house-icon-blue.png
     search: false
+    google-analytics: "G-0M4DWBMZT0"
     title: false
     background: light
     collapse: true
@@ -44,5 +45,6 @@ format:
       - assets/header.html
       - _includes/google-verification.html
     link-external-newwindow: true
+    anchor-sections: false
 
 editor: source
