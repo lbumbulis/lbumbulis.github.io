@@ -36,7 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5f9905039c4271a3dae4ee84f0a12b51.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-043a1513d6f9f6536e01a1f686375b6c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,6 +54,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/styles.css">
 </head>
@@ -139,28 +168,29 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <div class="alt-url">
 <p style="display:inline">
-<a href="https://www.mdpi.com/2227-7390/13/8/1274">Robustness and Efficiency Considerations When Testing Process Reliability with a Limit of Detection</a>
-</p>
-Bumbulis, L.S., Cook, R.J.
-<p>
-Mathematics, 13, 2025
-</p>
-<p style="display:inline">
 <a href="https://www.jrheum.org/content/52/Suppl_2/27.3">The Effect of Biologic Therapies on Serum Metabolic Biomarkers in Patients with Psoriatic Arthritis</a>
 </p>
-Colaco, K., Bumbulis, L., Chandran, V., Cook, R., et al.&nbsp;
+Colaco, K., <b>Bumbulis, L.</b>, Chandran, V., Cook, R., et al.&nbsp;
 <p>
 The Journal of Rheumatology, 52, 27–28, 2025
+</p>
+<p style="display:inline">
+<a href="https://www.mdpi.com/2227-7390/13/8/1274">Robustness and Efficiency Considerations When Testing Process Reliability with a Limit of Detection</a>
+</p>
+<b>Bumbulis, L.S.</b>, Cook, R.J.
+<p>
+Mathematics, 13, 2025
 </p>
 </div>
 </section>
 <section id="contributed-talks" class="level2">
 <h2 class="anchored" data-anchor-id="contributed-talks">Contributed Talks</h2>
 <div class="alt-url">
-<p><a href="https://ssc.ca/en/meeting/annual/presentation/dual-censoring-schemes-marker-and-failure-time-processes">Dual Censoring Schemes for Marker and Failure Time Processes</a><br> Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada<br> 2025, May 25–28<br></p>
-<p><a href="https://canssiontario.utoronto.ca/event/2024-waterloo-student-conference/">Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection</a><br> Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br> 2024, October 18–19<br></p>
+<p><a href="https://ssc.ca/en/meeting/annual/presentation/dual-censoring-schemes-marker-and-failure-time-processes">Dual Censoring Schemes for Marker and Failure Time Processes</a><span class="math inline">\(^\dagger\)</span><br> Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada<br> 2025, May 25–28<br></p>
+<p><a href="https://canssiontario.utoronto.ca/event/2024-waterloo-student-conference/">Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection</a><span class="math inline">\(^\ddagger\)</span><br> Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br> 2024, October 18–19<br></p>
 <p><a href="https://ssc.ca/en/meeting/annual/presentation/testing-process-reliability-under-a-limit-detection-issues-robustness">Testing Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency</a><br> Statistical Society of Canada Annual Meeting, St.&nbsp;John’s, NL, Canada<br> 2024, June 2–5<br></p>
 </div>
+<p><small> <span class="math inline">\(^\dagger\)</span> <em>Received Statistical Society of Canada Student Research Presentation Award — Biostatistics Section (<a href="https://ssc.ca/en/publications/ssc-liaison/vol-39-3-2025-06/winners-student-research-presentation-awards-2025">see more</a>)</em><br> <span class="math inline">\(^\ddagger\)</span> <em>Received Waterloo Student Conference in Statistics, Actuarial Science, and Finance Presentation Award</em> </small></p>
 
 
 </section>
@@ -253,6 +283,11 @@ The Journal of Rheumatology, 52, 27–28, 2025
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -579,7 +614,7 @@ The Journal of Rheumatology, 52, 27–28, 2025
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://dajmcdon.github.io/">
-<p>Website template © 2025 Daniel J. McDonald, University of British Columbia</p>
+<p>Website adapted from © 2025 Daniel J. McDonald</p>
 </a>
   </li>  
 </ul>
