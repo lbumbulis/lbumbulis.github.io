@@ -40,7 +40,9 @@ format:
       - assets/djmquarto.scss
     css: assets/styles.css
     toc: true
-    include-in-header: assets/header.html
+    include-in-header:
+      - assets/header.html
+      - _includes/google-verification.html
     link-external-newwindow: true
 
 editor: source
