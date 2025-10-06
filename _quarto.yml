@@ -6,10 +6,10 @@ project:
 website:
   title: "Laura Bumbulis"
   search: false
+  google-analytics: "G-0M4DWBMZT0"
   navbar:
     logo: assets/img/house-icon-blue.png
     search: false
-    google-analytics: "G-0M4DWBMZT0"
     title: false
     background: light
     collapse: true
@@ -32,7 +32,7 @@ website:
       <a href="mailto:lsbumbul@uwaterloo.ca"><i class="bi bi-envelope"></i></a>
     right:
       - href: https://dajmcdon.github.io/
-        text: "Website adapted from © 2025 Daniel J. McDonald"
+        text: "Website theme adapted from © 2025 Daniel J. McDonald"
 
 format:
   html:
