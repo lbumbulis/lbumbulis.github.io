@@ -21,6 +21,13 @@
     "text": "Swimming (and other sports)\nI swam competitively from the age of eight through the fourth year of my undergraduate degree, a span of about 13 years. I had a lot of fun experiences and learned a great deal about time management and hard work, but these days I am very much a “swammer.” Instead I enjoy participating in intramurals (flag football and volleyball so far) and watching tennis (although I’ve never really played it)."
   },
   {
+    "objectID": "about/index.html#i-am-not-a-web-designer",
+    "href": "about/index.html#i-am-not-a-web-designer",
+    "title": "A bit about me outside of academia …",
+    "section": "I am not a web designer",
+    "text": "I am not a web designer\nThis site was adapted with permission from the source code of Prof. Daniel J. McDonald’s personal website."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Laura Bumbulis",
@@ -46,7 +53,7 @@
     "href": "research/index.html#contributed-talks",
     "title": "Research",
     "section": "Contributed Talks",
-    "text": "Contributed Talks\n\nDual Censoring Schemes for Marker and Failure Time Processes\\(^\\dagger\\) Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada 2025, May 25–28\nRobustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection\\(^\\ddagger\\) Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada 2024, October 18–19\nTesting Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency Statistical Society of Canada Annual Meeting, St. John’s, NL, Canada 2024, June 2–5\n\n \\(^\\dagger\\) Received Statistical Society of Canada Student Research Presentation Award — Biostatistics Section (see more) \\(^\\ddagger\\) Received Waterloo Student Conference in Statistics, Actuarial Science, and Finance Presentation Award"
+    "text": "Contributed Talks\n\nDual Censoring Schemes for Marker and Failure Time Processes\\(^\\dagger\\) Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada 2025, May 25–28\nRobustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection\\(^\\ddagger\\) Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada 2024, October 18–19\nTesting Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency Statistical Society of Canada Annual Meeting, St. John’s, NL, Canada 2024, June 2–5\n\n \\(^\\dagger\\) Received Statistical Society of Canada Student Research Presentation Award — Biostatistics Section (see the news release and list of winners) \\(^\\ddagger\\) Received Waterloo Student Conference in Statistics, Actuarial Science, and Finance Presentation Award"
   },
   {
     "objectID": "teaching/index.html#guest-lectures",
@@ -67,6 +74,6 @@
     "href": "teaching/index.html#credentials",
     "title": "Teaching",
     "section": "Credentials",
-    "text": "Credentials\nFoundations for University Teaching in Statistics and Actuarial Science Certificate \n\n\n\nTo earn this certificate, graduate students in the University of Waterloo’s Department of Statistics and Actuarial Science are required to attend at least six workshops (two run by the department and at least four run by the university’s Centre for Teaching Excellence) and complete two teaching practicums observed by a member of the department’s TA Program.   My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024). My second practicum involved designing and running a two-hour review session on finding and evaluating the efficiency of maximum likelihood, method of moments, and Bayesian estimators (STAT 450, Winter 2025). Both were observed by Prof. Reza Ramezan.   More information about the certificate can be found here."
+    "text": "Credentials\nFoundations for University Teaching in Statistics and Actuarial Science Certificate \n\n\n\nTo earn this certificate, graduate students in the University of Waterloo’s Department of Statistics and Actuarial Science are required to attend at least six workshops (two run by the department and at least four run by the university’s Centre for Teaching Excellence) and complete two teaching practicums observed by a member of the department’s TA Program.   My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024). My second practicum involved designing and running a two-hour review session on finding maximum likelihood, method of moments, and Bayesian estimators and evaluating their efficiency (STAT 450, Winter 2025). Both were observed by Prof. Reza Ramezan.   More information about the certificate can be found here."
   }
 ]
