@@ -25,14 +25,13 @@ website:
         text: ABOUT
   page-footer:
     border: false
-    left: "Last updated: October 2025"
     center: |
       <a href="https://www.linkedin.com/in/laura-bumbulis/"><i class="bi bi-linkedin"></i></a>
       <a href="https://orcid.org/0009-0003-8141-9929"><i class="ai ai-orcid"></i></a>
       <a href="mailto:lsbumbul@uwaterloo.ca"><i class="bi bi-envelope"></i></a>
     right:
       - href: https://dajmcdon.github.io/
-        text: "Website theme adapted from © 2025 Daniel J. McDonald"
+        text: "© 2025 Laura Bumbulis"
 
 format:
   html:

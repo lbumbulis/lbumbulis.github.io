@@ -40,4 +40,7 @@ Instead I enjoy participating in intramurals (flag football and volleyball so fa
 :::
 :::
 
-<!-- {width=60%} -->
+## I am not a web designer
+
+This site was adapted with permission from the source code of [Prof. Daniel J. McDonald](https://dajmcdon.github.io/)'s personal website.
+
