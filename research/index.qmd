@@ -6,7 +6,7 @@ title: "Research"
 As of September 2025, my research is supported by [NSERC](https://www.nserc-crsng.gc.ca/nserc-crsng/fundingdecisions-decisionsfinancement/scholarshipsandfellowships-concoursdebourses/index_eng.asp?year=2025) ![](../assets/img/nserc-logo){height=15}.
 <br><br>
 
-## Publications
+## Peer-Reviewed Publications
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bib2df)
@@ -60,7 +60,7 @@ Statistical Society of Canada Annual Meeting, St. John's, NL, Canada<br>
 </div>
 
 <small>
-  $^\dagger$ <em>Received Statistical Society of Canada Student Research Presentation Award --- Biostatistics Section (see the [news release](https://uwaterloo.ca/statistics-and-actuarial-science/news/congratulations-phd-students-laura-bumbulis-and-tianyi-pan) and [list of winners](https://ssc.ca/en/publications/ssc-liaison/vol-39-3-2025-06/winners-student-research-presentation-awards-2025))</em><br>
+  $^\dagger$ <em>Received Statistical Society of Canada Student Research Presentation Award: Biostatistics Section (see the [news release](https://uwaterloo.ca/statistics-and-actuarial-science/news/congratulations-phd-students-laura-bumbulis-and-tianyi-pan) and [list of winners](https://ssc.ca/en/publications/ssc-liaison/vol-39-3-2025-06/winners-student-research-presentation-awards-2025))</em><br>
   $^\ddagger$ <em>Received Waterloo Student Conference in Statistics, Actuarial Science, and
   Finance Presentation Award</em>
 </small>

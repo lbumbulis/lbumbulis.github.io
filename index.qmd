@@ -23,6 +23,8 @@ about:
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:lsbumbul@uwaterloo.ca"> 
 <i class="bi bi-envelope"></i></a> 
+<a href="assets/lbumbulis-CV-oct2025.pdf" target="_blank">
+<i class="ai ai-cv"></i></a>
 </div>
 
 Welcome! I'm a second-year PhD Candidate in Statistics at the University of Waterloo, working under the supervision of [Prof. Richard Cook](https://www.math.uwaterloo.ca/~rjcook/).
