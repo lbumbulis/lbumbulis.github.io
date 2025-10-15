@@ -3,14 +3,22 @@ title: "Teaching"
 ---
 
 <br>
-My teaching experience relates to several statistics (STAT) courses offered by the University of Waterloo. A list of STAT courses with short descriptions can be found [here](https://ucalendar.uwaterloo.ca/2324/COURSE/course-STAT.html).
+My teaching experience relates to several statistics (STAT) courses offered by the University of Waterloo.
+A list of STAT courses with short descriptions can be found here: [\[undergraduate\]](https://ucalendar.uwaterloo.ca/2324/COURSE/course-STAT.html); [\[graduate\]](https://academic-calendar-archive.uwaterloo.ca/graduate-studies/archive-spring-2021/graduate-course/subject/STAT.html).
 <br><br>
 
-## Guest Lectures
+## Guest Lectures and Reviews
 
-<b>STAT 450: Estimation and Hypothesis Testing,</b> February 2025<br>
-Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/)<br>
-Topic: Bayesian Estimation
+<b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
+Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/)
+
+* Guest lecture on Bayesian estimation (50 mins)
+<br>
+
+<b>STAT 850: Estimation and Hypothesis Testing (Graduate-Level),</b> Fall 2024<br>
+Instructor: [Prof. Yingli Qin](https://www.math.uwaterloo.ca/~y34qin/)
+
+* Two final exam review sessions (3 hours each)
 
 ## Teaching Assistantships
 
