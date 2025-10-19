@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My teaching experience relates to several statistics (STAT) courses offered by the University of Waterloo. A list of STAT courses with short descriptions can be found here: [undergraduate]; [graduate]."
+  },
+  {
+    "objectID": "teaching/index.html#guest-lectures-and-reviews",
+    "href": "teaching/index.html#guest-lectures-and-reviews",
+    "title": "Teaching",
+    "section": "Guest Lectures and Reviews",
+    "text": "Guest Lectures and Reviews\nSTAT 450: Estimation and Hypothesis Testing, Winter 2025 Instructor: Prof. Peter W. MacDonald\n\nGuest lecture on Bayesian estimation (50 mins) \n\nSTAT 850: Estimation and Hypothesis Testing (Graduate-Level), Fall 2024 Instructor: Prof. Yingli Qin\n\nTwo final exam review sessions (3 hours each)"
+  },
+  {
+    "objectID": "teaching/index.html#teaching-assistantships",
+    "href": "teaching/index.html#teaching-assistantships",
+    "title": "Teaching",
+    "section": "Teaching Assistantships",
+    "text": "Teaching Assistantships\nSTAT 231: Statistics, Spring 2025 STAT 230: Probability (Online), Winter 2025 STAT 450: Estimation and Hypothesis Testing, Winter 2025 STAT 330: Mathematical Statistics, Fall 2024\\(^\\dagger\\)\n \\(^\\dagger\\) Received Department of Statistics and Actuarial Science TA Award"
+  },
+  {
+    "objectID": "teaching/index.html#credentials",
+    "href": "teaching/index.html#credentials",
+    "title": "Teaching",
+    "section": "Credentials",
+    "text": "Credentials\nFoundations for University Teaching in Statistics and Actuarial Science Certificate \n\n\n\nTo earn this certificate, graduate students in the University of Waterloo’s Department of Statistics and Actuarial Science are required to attend at least six workshops (two run by the department and at least four run by the university’s Centre for Teaching Excellence) and complete two teaching practicums observed by a member of the department’s TA Program.   My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024). My second practicum involved designing and running a two-hour review session on finding maximum likelihood, method of moments, and Bayesian estimators and evaluating their efficiency (STAT 450, Winter 2025). Both were observed by Prof. Reza Ramezan.   More information about the certificate can be found here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laura Bumbulis",
+    "section": "",
+    "text": "Welcome! I’m a second-year PhD Candidate in Statistics at the University of Waterloo, working under the supervision of Prof. Richard Cook. I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.\nMy research interests involve multistate modelling under complex observation schemes as well as two-phase designs for failure time studies.\n Department of Statistics and Actuarial Science University of Waterloo\nM3 4224 200 University Avenue West Waterloo, ON, Canada N2L 3G1"
+  },
+  {
     "objectID": "activities/index.html",
     "href": "activities/index.html",
     "title": "Current Professional Activities",
@@ -28,13 +63,6 @@
     "text": "I am not a web developer (anymore)\nDuring my undergraduate degree I worked briefly as a web developer, but the site you are on right now was adapted (with permission) from the source code of Prof. Daniel J. McDonald’s personal website."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Laura Bumbulis",
-    "section": "",
-    "text": "Welcome! I’m a second-year PhD Candidate in Statistics at the University of Waterloo, working under the supervision of Prof. Richard Cook. I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.\nMy research interests involve multistate modelling under complex observation schemes as well as two-phase designs for failure time studies.\n Department of Statistics and Actuarial Science University of Waterloo\nM3 4224 200 University Avenue West Waterloo, ON, Canada N2L 3G1"
-  },
-  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -54,33 +82,5 @@
     "title": "Research",
     "section": "Contributed Talks",
     "text": "Contributed Talks\n\nDual Censoring Schemes for Marker and Failure Time Processes\\(^\\dagger\\) Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada 2025, May 25–28\nRobustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection\\(^\\ddagger\\) Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada 2024, October 18–19\nTesting Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency Statistical Society of Canada Annual Meeting, St. John’s, NL, Canada 2024, June 2–5\n\n \\(^\\dagger\\) Received Statistical Society of Canada Student Research Presentation Award: Biostatistics Section (see the news release and list of winners) \\(^\\ddagger\\) Received Waterloo Student Conference in Statistics, Actuarial Science, and Finance Presentation Award"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "My teaching experience relates to several statistics (STAT) courses offered by the University of Waterloo. A list of STAT courses with short descriptions can be found here: [undergraduate]; [graduate]."
-  },
-  {
-    "objectID": "teaching/index.html#guest-lectures-and-reviews",
-    "href": "teaching/index.html#guest-lectures-and-reviews",
-    "title": "Teaching",
-    "section": "Guest Lectures and Reviews",
-    "text": "Guest Lectures and Reviews\nSTAT 450: Estimation and Hypothesis Testing, Winter 2025 Instructor: Prof. Peter W. MacDonald\n\nGuest lecture on Bayesian estimation (50 mins) \n\nSTAT 850: Estimation and Hypothesis Testing (Graduate-Level), Fall 2024 Instructor: Prof. Yingli Qin\n\nTwo final exam review sessions (3 hours each)"
-  },
-  {
-    "objectID": "teaching/index.html#teaching-assistantships",
-    "href": "teaching/index.html#teaching-assistantships",
-    "title": "Teaching",
-    "section": "Teaching Assistantships",
-    "text": "Teaching Assistantships\nSTAT 231: Statistics, Spring 2025 STAT 230: Probability (Online), Winter 2025 STAT 450: Estimation and Hypothesis Testing, Winter 2025 STAT 330: Mathematical Statistics, Fall 2024\\(^\\dagger\\)\n \\(^\\dagger\\) Received Department of Statistics and Actuarial Science TA Award"
-  },
-  {
-    "objectID": "teaching/index.html#credentials",
-    "href": "teaching/index.html#credentials",
-    "title": "Teaching",
-    "section": "Credentials",
-    "text": "Credentials\nFoundations for University Teaching in Statistics and Actuarial Science Certificate \n\n\n\nTo earn this certificate, graduate students in the University of Waterloo’s Department of Statistics and Actuarial Science are required to attend at least six workshops (two run by the department and at least four run by the university’s Centre for Teaching Excellence) and complete two teaching practicums observed by a member of the department’s TA Program.   My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024). My second practicum involved designing and running a two-hour review session on finding maximum likelihood, method of moments, and Bayesian estimators and evaluating their efficiency (STAT 450, Winter 2025). Both were observed by Prof. Reza Ramezan.   More information about the certificate can be found here."
   }
 ]
