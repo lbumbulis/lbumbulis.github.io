@@ -14,9 +14,9 @@ about:
 <!--
 <a href="https://github.com/lbumbulis">
 <i class="bi bi-github"></i></a>
-<a href="https://scholar.google.com">
-<i class="ai ai-google-scholar"></i></a> 
 -->
+<a href="https://scholar.google.ca/citations?user=IsQvBGkAAAAJ&hl=en">
+<i class="ai ai-google-scholar"></i></a> 
 <a href="https://www.linkedin.com/in/laura-bumbulis/"> 
 <i class="bi bi-linkedin"></i></a> 
 <a href="https://orcid.org/0009-0003-8141-9929"> 
