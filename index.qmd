@@ -23,14 +23,14 @@ about:
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:lsbumbul@uwaterloo.ca"> 
 <i class="bi bi-envelope"></i></a> 
-<a href="assets/lbumbulis-CV-oct2025.pdf" target="_blank">
+<a href="assets/lbumbulis-CV-dec2025.pdf" target="_blank">
 <i class="ai ai-cv"></i></a>
 </div>
 
 Welcome! I'm a second-year PhD Candidate in Statistics at the University of Waterloo, working under the supervision of [Prof. Richard Cook](https://www.math.uwaterloo.ca/~rjcook/).
 I completed my BMath in 2022 and my MMath in Statistics in 2024, both also at the University of Waterloo.
 
-My research interests involve multistate modelling under complex observation schemes as well as two-phase designs for failure time studies.<br><br>
+My research interests include multistate modelling under complex observation schemes as well as two-phase designs for failure time studies.<br><br>
 
 
 <small>
