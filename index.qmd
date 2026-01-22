@@ -23,7 +23,7 @@ about:
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:lsbumbul@uwaterloo.ca"> 
 <i class="bi bi-envelope"></i></a> 
-<a href="assets/lbumbulis-CV-dec2025.pdf" target="_blank">
+<a href="assets/lbumbulis-CV-jan2026.pdf" target="_blank">
 <i class="ai ai-cv"></i></a>
 </div>
 

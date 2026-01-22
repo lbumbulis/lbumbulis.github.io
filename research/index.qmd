@@ -24,7 +24,7 @@ df2 <- df |>
   transmute(
     year = clean_str(YEAR),
     title = fmt_title(TITLE, URL),
-    pub = fmt_jvpy(JOURNAL, VOLUME, PAGES, YEAR),
+    pub = fmt_jvpy(JOURNAL, VOLUME, PAGES, YEAR, NUMBER),
     skip = is.na(URL)
   )
 df2$authors = sapply(df$AUTHOR, fmt_names)

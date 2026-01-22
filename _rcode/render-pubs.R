@@ -44,13 +44,15 @@ fmt_title <- function(title, url) {
   unname(str_glue("<p style='display:inline'>{bracket_wrap(clean_str(title))}{paren_wrap(url)}</p><br>"))
 }
 
-fmt_jvpy <- function(journal, volume, pgs, year) {
+fmt_jvpy <- function(journal, volume, pgs, year, nmbr) {
   jc <- case_when(
     !is.na(journal) ~ journal,
     TRUE ~ ""
   )
   jc <- na_blank(clean_str(jc))
   vol <- case_when(
+    !is.na(volume) & !is.na(pgs) & !is.na(nmbr) ~ str_glue("{volume} {paren_wrap(nmbr)}, {pgs}, {year}"),
+    !is.na(volume) & !is.na(nmbr) ~ str_glue("{volume} {paren_wrap(nmbr)}, {year}"),
     !is.na(volume) & !is.na(pgs) ~ str_glue("{volume}, {pgs}, {year}"),
     !is.na(volume) ~ str_glue("{volume}, {year}"),
     is.na(volume) ~ str_glue("{clean_str(year)}"),
