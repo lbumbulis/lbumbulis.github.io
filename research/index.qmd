@@ -3,7 +3,7 @@ title: "Research"
 ---
 
 <br>
-As of September 2025, my research is supported by [NSERC](https://www.nserc-crsng.gc.ca/nserc-crsng/fundingdecisions-decisionsfinancement/scholarshipsandfellowships-concoursdebourses/index_eng.asp?year=2025) ![](../assets/img/nserc-logo){height=15}.
+As of September 2025, my research is supported by [NSERC](https://nserc-crsng.canada.ca/en) ![](../assets/img/nserc-logo){height=15}.
 <br><br>
 
 ## Peer-Reviewed Publications
