@@ -6,7 +6,7 @@ title: "Research"
 As of September 2025, my research is supported by [NSERC](https://nserc-crsng.canada.ca/en) ![](../assets/img/nserc-logo){height=15}.
 <br><br>
 
-## Peer-Reviewed Publications
+## Publications
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bib2df)
@@ -46,15 +46,26 @@ for (i in 1:nrow(df2)) {
 ## Contributed Talks
 
 <div class="alt-url">
-[Dual Censoring Schemes for Marker and Failure Time Processes](https://ssc.ca/en/meeting/annual/presentation/dual-censoring-schemes-marker-and-failure-time-processes)$^\dagger$<br>
+<b>Joint Models for Marker and Failure Data
+under Dual Censoring Schemes</b>
+<a href="../assets/ENAR_slides_2026_03_17-lbumbulis.pdf" target="_blank">
+<i>[slides]</i></a>
+<br>
+ENAR Spring Meeting, Indianapolis, IN, USA<br>
+2026, March 15--18<br>
+
+<b>Dual Censoring Schemes for Marker and Failure Time Processes$^\dagger$</b>
+<br>
 Statistical Society of Canada Annual Meeting, Saskatoon, SK, Canada<br>
 2025, May 25--28<br>
 
-[Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection](https://canssiontario.utoronto.ca/event/2024-waterloo-student-conference/)$^\ddagger$<br>
+<b>Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection$^\ddagger$</b>
+<br>
 Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br>
 2024, October 18--19<br>
 
-[Testing Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency](https://ssc.ca/en/meeting/annual/presentation/testing-process-reliability-under-a-limit-detection-issues-robustness)<br>
+<b>Testing Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency</b>
+<br>
 Statistical Society of Canada Annual Meeting, St. John's, NL, Canada<br>
 2024, June 2--5<br>
 </div>
