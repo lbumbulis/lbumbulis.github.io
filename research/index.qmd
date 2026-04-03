@@ -48,8 +48,8 @@ for (i in 1:nrow(df2)) {
 <div class="alt-url">
 <b>Joint Models for Marker and Failure Data
 under Dual Censoring Schemes</b>
-<a href="../assets/ENAR_slides_2026_03_17-lbumbulis.pdf" target="_blank">
-<i>[slides]</i></a>
+<!-- <a href="../assets/ENAR_slides_2026_03_17-lbumbulis.pdf" target="_blank"> -->
+<!-- <i>[slides]</i></a> -->
 <br>
 ENAR Spring Meeting, Indianapolis, IN, USA<br>
 2026, March 15--18<br>
