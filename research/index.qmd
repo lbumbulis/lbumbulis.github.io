@@ -46,6 +46,11 @@ for (i in 1:nrow(df2)) {
 ## Contributed Talks
 
 <div class="alt-url">
+<b>Challenges and Opportunities in the Analysis of Cervical Screening Data</b>
+<br>
+Statistical Society of Canada Annual Meeting, Hamilton, ON, Canada<br>
+2026, May 31--June 3<br>
+
 <b>Joint Models for Marker and Failure Data
 under Dual Censoring Schemes</b>
 <!-- <a href="../assets/ENAR_slides_2026_03_17-lbumbulis.pdf" target="_blank"> -->
