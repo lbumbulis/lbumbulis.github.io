@@ -7,7 +7,7 @@ My teaching experience relates to several statistics (STAT) courses offered by t
 A list of STAT courses with short descriptions can be found here: [\[undergraduate\]](https://ucalendar.uwaterloo.ca/2324/COURSE/course-STAT.html); [\[graduate\]](https://academic-calendar-archive.uwaterloo.ca/graduate-studies/archive-spring-2021/graduate-course/subject/STAT.html).
 <br><br>
 
-## Guest Lectures and Reviews
+## Guest Lectures and Exam Reviews
 
 <b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
 Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/)

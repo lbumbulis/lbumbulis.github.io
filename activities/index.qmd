@@ -4,7 +4,15 @@ title: "Current Professional Activities"
 
 <br>
 
-Within the Department of Statistics and Actuarial Science at Waterloo:
+I am currently co-chairing (with [Benjamin Côté](https://benjicote.github.io/benjicote/) and [Jay Sivathayalan](https://uwaterloo.ca/statistics-and-actuarial-science/contacts/jay-sivathayalan)) the [6th Waterloo Student Conference in Statistics, Actuarial Science, and Finance](https://uwaterloo.ca/statistics-actuarial-science-finance-student-conference/) ![](../assets/img/uw-logo-shield){height=17}!
+
+* The conference will take place at the University of Waterloo on October 23--24, 2026.
+* Submit an abstract [here](https://uwaterloo.ca/statistics-actuarial-science-finance-student-conference/abstract-submission)!
+* Registration will open soon.
+
+<br>
+
+More generally, within the Department of Statistics and Actuarial Science at Waterloo:
 
 * Since January 2025 I have been co-organizing (with [Megan French](https://uwaterloo.ca/statistics-and-actuarial-science/contacts/megan-french)) a [Student Seminar Series](https://uwaterloo.ca/statistics-and-actuarial-science/student-seminar-series) designed to give grad students an opportunity to present their research.
 We also occasionally invite professors to introduce their work to a student audience.
