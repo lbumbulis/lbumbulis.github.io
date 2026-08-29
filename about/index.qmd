@@ -7,7 +7,6 @@ title: "A bit about me outside of academia ..."
 ## Music
 
 I play the piano regularly, with a preference for pieces that sound nice but aren't too hard to play --- many things by [Ludovico Einaudi](https://ludovicoeinaudi.com/complete-works/) fit this description, and I've recently learned "The Breach" and "Dans les bois" from [Alexandra Stréliski's](https://alexandrastreliski.com/?lang=en) <em>Néo-Romance</em> (see below).
-More generally, I am a very amateur enthusiast of classical music.
 
 <div style="width:80%; margin:auto;">
 ::: {.column-page-inset-center}

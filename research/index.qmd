@@ -80,7 +80,7 @@ for (i in 1:nrow(df2)) {
   <li>
     <b>Robustness and Efficiency Considerations when Testing Process Reliability with a Limit of Detection$^\ddagger$</b>
     <br>
-    Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br>
+    5th Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br>
     2024, October 18--19<br>
   </li>
   <li>

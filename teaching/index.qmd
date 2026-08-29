@@ -9,16 +9,17 @@ A list of STAT courses with short descriptions can be found here: [\[undergradua
 
 ## Guest Lectures and Exam Reviews
 
-<b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
-Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/)
+<b>STAT 431: Generalized Linear Models,</b> Spring 2026<br>
+Guest lecture on overdispersion (80 mins)<br>
+<!-- Instructor: [Prof. Cecilia A. Cotton](https://uwaterloo.ca/statistics-and-actuarial-science/profiles/cecilia-cotton) -->
 
-* Guest lecture on Bayesian estimation (50 mins)
-<br>
+<b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
+Guest lecture on Bayesian estimation (50 mins)<br>
+<!-- Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/) -->
 
 <b>STAT 850: Estimation and Hypothesis Testing (Graduate-Level),</b> Fall 2024<br>
-Instructor: [Prof. Yingli Qin](https://www.math.uwaterloo.ca/~y34qin/)
-
-* Two final exam review sessions (3 hours each)
+Two final exam review sessions (3 hours each)<br>
+<!-- Instructor: [Prof. Yingli Qin](https://www.math.uwaterloo.ca/~y34qin/) -->
 
 ## Teaching Assistantships
 
