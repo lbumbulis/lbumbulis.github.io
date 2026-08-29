@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lbumbulis.github.io/index.html</loc>
-    <lastmod>2026-06-26T01:24:20.933Z</lastmod>
+    <loc>https://lbumbulis.github.io/teaching/index.html</loc>
+    <lastmod>2026-08-29T13:32:56.782Z</lastmod>
   </url>
   <url>
     <loc>https://lbumbulis.github.io/about/index.html</loc>
-    <lastmod>2026-06-26T01:24:20.898Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lbumbulis.github.io/teaching/index.html</loc>
-    <lastmod>2026-06-26T01:24:20.933Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lbumbulis.github.io/activities/index.html</loc>
-    <lastmod>2026-06-26T01:24:20.898Z</lastmod>
+    <lastmod>2026-08-29T13:32:56.744Z</lastmod>
   </url>
   <url>
     <loc>https://lbumbulis.github.io/research/index.html</loc>
-    <lastmod>2026-06-26T01:24:20.933Z</lastmod>
+    <lastmod>2026-08-29T13:32:56.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lbumbulis.github.io/index.html</loc>
+    <lastmod>2026-08-29T13:32:56.782Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lbumbulis.github.io/activities/index.html</loc>
+    <lastmod>2026-08-29T13:32:56.744Z</lastmod>
   </url>
 </urlset>
