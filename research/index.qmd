@@ -15,9 +15,12 @@ df <- bib2df(here::here("_biblio", "papers.bib"), separate_names = TRUE)
 
 keep_fields <- toupper(c(
   "author", "journal", "pages", "publisher", "number",
-  "title", "volume", "year", "url"))
+  "title", "volume", "year", "url", "doi"))
 
-df <- df[, keep_fields] |> arrange(desc(YEAR))
+df <- df[, keep_fields] |>
+  mutate(URL = if_else(is.na(URL) & !is.na(DOI),
+                       paste0("https://doi.org/", DOI), URL)) |>
+  arrange(desc(YEAR))
 source(here::here("_rcode", "render-pubs.R"))
 
 df2 <- df |>
@@ -51,7 +54,7 @@ for (i in 1:nrow(df2)) {
 <div class="alt-url">
 <ol reversed class="spaced">
   <li>
-    <b>[Upcoming] Multistate Joint Modelling of Marker and Failure Data under Dual Censoring Schemes</b>
+    <b>Multistate Joint Modelling of Marker and Failure Data under Dual Censoring Schemes</b>
     <br>
     ISCB Annual Conference, Freiburg, Germany<br>
     2026, September 27--October 1<br>

@@ -62,6 +62,6 @@ fmt_jvpy <- function(journal, volume, pgs, year, nmbr) {
 
 clean_urls <- function(url) {
   str <- str_remove_all(url, "\\{")
-  str <- str_remove_all(url, "\\}")
+  str <- str_remove_all(str, "\\}")
   str
 }
