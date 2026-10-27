@@ -29,10 +29,12 @@ A list of STAT courses with short descriptions can be found here: [\[undergradua
 
 ## Teaching Assistantships
 
-<b>STAT 231: Statistics,</b> Spring 2025<br>
-<b>STAT 230: Probability (Online),</b> Winter 2025<br>
-<b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
-<b>STAT 330: Mathematical Statistics,</b>  Fall 2024$^\dagger$<br>
+<ul>
+  <li><b>STAT 231: Statistics,</b> Spring 2025<br></li>
+  <li><b>STAT 230: Probability (Online),</b> Winter 2025<br></li>
+  <li><b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br></li>
+  <li><b>STAT 330: Mathematical Statistics,</b>  Fall 2024$^\dagger$<br></li>
+</ul>
 
 <small>
   $^\dagger$ <em>Received Department of Statistics and Actuarial Science TA Award</em>

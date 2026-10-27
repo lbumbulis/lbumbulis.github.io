@@ -12,6 +12,10 @@ bold_text <- function(x) {
   paste0("<b>", x, "</b>")
 }
 
+italic_text <- function(x) {
+  ifelse(x == "", x, paste0("<i>", x, "</i>"))
+}
+
 fmt_names <- function(x, max_names = 4) {
   x <- x |>
     mutate(fn = add_dot(substr(first_name, 1, 1)),
@@ -20,8 +24,15 @@ fmt_names <- function(x, max_names = 4) {
            nn = ifelse(last_name=="Bumbulis", bold_text(nn_temp), nn_temp)) |>
     pull(nn) |>
     as.character()
-  if (length(x) > max_names) x <- c(x[1:max_names], "et al.")
-  paste(x, collapse = ", ")
+  
+  n <- length(x)
+  if (n > max_names) {
+    paste(c(x[1:max_names], "et al."), collapse = ", ")
+  } else if (n == 1) {
+    x
+  } else {
+    paste0(paste(x[-n], collapse = ", "), ", & ", x[n])
+  }
 }
 
 clean_str <- function(str) {
@@ -49,12 +60,12 @@ fmt_jvpy <- function(journal, volume, pgs, year, nmbr) {
     !is.na(journal) ~ journal,
     TRUE ~ ""
   )
-  jc <- na_blank(clean_str(jc))
+  jc <- italic_text(na_blank(clean_str(jc)))
   vol <- case_when(
-    !is.na(volume) & !is.na(pgs) & !is.na(nmbr) ~ str_glue("{volume} {paren_wrap(nmbr)}, {pgs}, {year}"),
-    !is.na(volume) & !is.na(nmbr) ~ str_glue("{volume} {paren_wrap(nmbr)}, {year}"),
-    !is.na(volume) & !is.na(pgs) ~ str_glue("{volume}, {pgs}, {year}"),
-    !is.na(volume) ~ str_glue("{volume}, {year}"),
+    !is.na(volume) & !is.na(pgs) & !is.na(nmbr) ~ str_glue("{italic_text(volume)} {paren_wrap(nmbr)}, {pgs}, {year}"),
+    !is.na(volume) & !is.na(nmbr) ~ str_glue("{italic_text(volume)} {paren_wrap(nmbr)}, {year}"),
+    !is.na(volume) & !is.na(pgs) ~ str_glue("{italic_text(volume)}, {pgs}, {year}"),
+    !is.na(volume) ~ str_glue("{italic_text(volume)}, {year}"),
     is.na(volume) ~ str_glue("{clean_str(year)}"),
   )
   unname(str_glue("<p>{jc}, {vol}</p>"))
