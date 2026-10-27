@@ -4,9 +4,9 @@ title: "Research"
 
 <br>
 As of September 2025, my research is supported by [NSERC](https://nserc-crsng.canada.ca/en) ![](../assets/img/nserc-logo){height=15}.
+<div class="spacer"></div>
+A full list of publications can be on my [Google Scholar profile](https://scholar.google.ca/citations?user=IsQvBGkAAAAJ&hl=en) ![](../assets/img/scholar-logo.svg){height=15}.
 <br><br>
-
-## Publications
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bib2df)
@@ -15,7 +15,7 @@ df <- bib2df(here::here("_biblio", "papers.bib"), separate_names = TRUE)
 
 keep_fields <- toupper(c(
   "author", "journal", "pages", "publisher", "number",
-  "title", "volume", "year", "url", "doi"))
+  "title", "volume", "year", "url", "doi", "type"))
 
 df <- df[, keep_fields] |>
   mutate(URL = if_else(is.na(URL) & !is.na(DOI),
@@ -28,16 +28,21 @@ df2 <- df |>
     year = clean_str(YEAR),
     title = fmt_title(TITLE, URL),
     pub = fmt_jvpy(JOURNAL, VOLUME, PAGES, YEAR, NUMBER),
-    skip = is.na(URL)
+    skip = is.na(URL),
+    type = TYPE
   )
 df2$authors = sapply(df$AUTHOR, fmt_names)
 df2 <- df2 |> filter(!skip)
 ```
 
+## Selected Publications
+
 <div class="alt-url">
-<ol reversed class="spaced">
+<ul class="spaced">
 ```{r, error=FALSE, warning=FALSE, results="asis", echo=FALSE}
-for (i in 1:nrow(df2)) {
+select_idx <- which(df2$type=="selected")
+
+for (i in select_idx) {
   ref = df2[i,]
   cat('<li>\n')
   cat('<div>', ref$title, '</div>\n')
@@ -46,13 +51,13 @@ for (i in 1:nrow(df2)) {
   cat('</li>\n')
 }
 ```
-</ol>
+</ul>
 </div>
 
-## Contributed Talks
+## Selected Talks
 
 <div class="alt-url">
-<ol reversed class="spaced">
+<ul class="spaced">
   <li>
     <b>Multistate Joint Modelling of Marker and Failure Data under Dual Censoring Schemes</b>
     <br>
@@ -66,15 +71,6 @@ for (i in 1:nrow(df2)) {
     2026, May 31--June 3<br>
   </li>
   <li>
-    <b>Joint Models for Marker and Failure Data
-    under Dual Censoring Schemes</b>
-    <!-- <a href="../assets/ENAR_slides_2026_03_17-lbumbulis.pdf" target="_blank"> -->
-    <!-- <i>[slides]</i></a> -->
-    <br>
-    ENAR Spring Meeting, Indianapolis, IN, USA<br>
-    2026, March 15--18<br>
-  </li>
-  <li>
     <b>Dual Censoring Schemes for Marker and Failure Time Processes$^\dagger$</b>
     <br>
     SSC Annual Meeting, Saskatoon, SK, Canada<br>
@@ -86,13 +82,7 @@ for (i in 1:nrow(df2)) {
     5th Waterloo Student Conference in Statistics, Actuarial Science, and Finance, Waterloo, ON, Canada<br>
     2024, October 18--19<br>
   </li>
-  <li>
-    <b>Testing Process Reliability under a Limit of Detection: Issues of Robustness and Efficiency</b>
-    <br>
-    SSC Annual Meeting, St. John's, NL, Canada<br>
-    2024, June 2--5<br>
-  </li>
-</ol>
+</ul>
 </div>
 
 <small>
@@ -102,13 +92,9 @@ for (i in 1:nrow(df2)) {
   
 <br>
 <table style="border: none;">
-  <tr><td style="width: 60px;">ENAR:</td><td>Eastern North American Region (International Biometric Society)</td></tr>
   <tr><td>ISCB:</td><td>International Society for Clinical Biostatistics</td></tr>
   <tr><td>SSC:</td><td>Statistical Society of Canada</td></tr>
 </table>
-<!-- ENAR: Eastern North American Region (International Biometric Society)<br> -->
-<!-- ISCB: International Society for Clinical Biostatistics<br> -->
-<!-- SSC: Statistical Society of Canada -->
 </small>
 
 

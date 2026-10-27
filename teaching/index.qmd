@@ -9,17 +9,23 @@ A list of STAT courses with short descriptions can be found here: [\[undergradua
 
 ## Guest Lectures and Exam Reviews
 
-<b>STAT 431: Generalized Linear Models,</b> Spring 2026<br>
-Guest lecture on overdispersion (80 mins)<br>
-<!-- Instructor: [Prof. Cecilia A. Cotton](https://uwaterloo.ca/statistics-and-actuarial-science/profiles/cecilia-cotton) -->
-
-<b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
-Guest lecture on Bayesian estimation (50 mins)<br>
-<!-- Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/) -->
-
-<b>STAT 850: Estimation and Hypothesis Testing (Graduate-Level),</b> Fall 2024<br>
-Two final exam review sessions (3 hours each)<br>
-<!-- Instructor: [Prof. Yingli Qin](https://www.math.uwaterloo.ca/~y34qin/) -->
+<ul class="spaced">
+  <li>
+    <b>STAT 431: Generalized Linear Models,</b> Spring 2026<br>
+    Guest lecture on overdispersion (80 mins)<br>
+    <!-- Instructor: [Prof. Cecilia A. Cotton](https://uwaterloo.ca/statistics-and-actuarial-science/profiles/cecilia-cotton) -->
+  </li>
+  <li>
+    <b>STAT 450: Estimation and Hypothesis Testing,</b> Winter 2025<br>
+    Guest lecture on Bayesian estimation (50 mins)<br>
+    <!-- Instructor: [Prof. Peter W. MacDonald](https://peterwmacd.github.io/) -->
+  </li>
+  <li>
+    <b>STAT 850: Estimation and Hypothesis Testing (Graduate-Level),</b> Fall 2024<br>
+    Two final exam review sessions (3 hours each)<br>
+    <!-- Instructor: [Prof. Yingli Qin](https://www.math.uwaterloo.ca/~y34qin/) -->
+  </li>
+</ul>
 
 ## Teaching Assistantships
 
@@ -36,17 +42,15 @@ Two final exam review sessions (3 hours each)<br>
 
 <b>Foundations for University Teaching in Statistics and Actuarial Science Certificate</b>
 <br>
-<div style="height: 0.5em;"></div>
+<div class="spacer"></div>
 To earn this certificate, graduate students in the University of Waterloo's Department of Statistics and Actuarial Science are required to attend at least six workshops
 (two run by the department and at least four run by the university's [Centre for Teaching Excellence](https://uwaterloo.ca/centre-for-teaching-excellence/))
 and complete two teaching practicums observed by a member of the department's [TA Program](https://uwaterloo.ca/statistics-and-actuarial-science/graduate-studies/graduate-student-resources/teaching-assistants-program).
-<br>
-<br>
+<div class="spacer"></div>
 My first practicum involved running a 50-minute tutorial on random variable transformations (STAT 330, Fall 2024).
 My second practicum involved designing and running a two-hour review session on finding maximum likelihood, method of moments, and Bayesian estimators and evaluating their efficiency (STAT 450, Winter 2025).
 Both were observed by [Prof. Reza Ramezan](https://sites.google.com/site/ramezanic/home).
-<br>
-<br>
+<div class="spacer"></div>
 More information about the certificate can be found [here](https://uwaterloo.ca/statistics-and-actuarial-science/graduate-studies/resources-students/teaching-assistants-program/training-and-development).
 
 
